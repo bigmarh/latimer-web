@@ -223,7 +223,7 @@ const Nav: Component = () => {
 
         {/* CTA */}
         <a
-          href="#"
+          href="https://latimer.pages.dev"
           class="flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 no-underline"
           style="background: rgba(245,158,11,0.12); color: #f59e0b; border: 1px solid rgba(245,158,11,0.25); font-family: 'Syne', sans-serif;"
           onMouseEnter={(e) => {
@@ -294,7 +294,7 @@ const Hero: Component = () => (
       {/* CTAs */}
       <div class="animate-fade-up delay-300 flex flex-wrap items-center justify-center gap-4 mb-20">
         <a
-          href="#"
+          href="https://latimer.pages.dev"
           class="flex items-center gap-2.5 px-7 py-3.5 rounded-xl text-base font-semibold transition-all duration-200 no-underline"
           style="background: #f59e0b; color: #060608; font-family: 'Syne', sans-serif; box-shadow: 0 0 40px rgba(245,158,11,0.3);"
           onMouseEnter={(e) => {
@@ -942,7 +942,7 @@ const CTABanner: Component = () => (
             Latimer went largely uncredited. Latimer the app exists to carry that legacy forward: open, decentralized communication that belongs to everyone, controlled by no one.
           </p>
           <a
-            href="#"
+            href="https://latimer.pages.dev"
             class="inline-flex items-center gap-2.5 px-8 py-4 rounded-xl text-base font-semibold transition-all duration-200 no-underline"
             style="background: #f59e0b; color: #060608; font-family: 'Syne', sans-serif; box-shadow: 0 0 50px rgba(245,158,11,0.3);"
             onMouseEnter={(e) => {
@@ -1004,7 +1004,7 @@ const Footer: Component = () => (
               {['Launch App', 'How It Works', 'Features', 'Roadmap'].map((l) => (
                 <li>
                   <a
-                    href="#"
+                    href={l === 'Launch App' ? 'https://latimer.pages.dev' : '#'}
                     class="text-sm no-underline transition-colors duration-150"
                     style="color: #6b6b7a; font-family: 'Syne', sans-serif;"
                     onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = '#f0ede8')}
